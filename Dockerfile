@@ -1,13 +1,11 @@
-FROM jmthonar/userbot:slim-buster
+FROM RR77R/jmthon:alpine
 
-#clonning repo 
-RUN git clone https://github.com/jmthonar/userbot.git /root/userbot
-#working directory 
-WORKDIR /root/userbot
+RUN git clone https://github.com/RR77R/jmthon/tree/master.git /root/jmthon
 
-# Install requirements
-RUN pip3 install --no-cache-dir -r requirements.txt
+WORKDIR /root/jmthon
 
-ENV PATH="/home/userbot/bin:$PATH"
+RUN pip3 install -U -r requirements.txt
 
-CMD ["python3","-m","userbot"]
+ENV PATH="/home/jmthon/bin:$PATH"
+
+CMD ["python3","-m","jmthon"]

@@ -1,13 +1,13 @@
 {
-  "name": "JMTHON - USERBOT",
-  "description": "Arabic Userbot Powerful & Safe based on Telethon",
+  "name": "Telegram ",
+  "description": "u",
   "logo": "",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/jmthonar/bot/",
+  "repository": "https://github.com/jmthonar/RR77R/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -60,7 +60,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس لا تغيره ابدا",
-      "value": "jmthonrz",
+      "value": "jmthon-ro",
       "required": false
     }
   },
